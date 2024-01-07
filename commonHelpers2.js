@@ -1,0 +1,2 @@
+import"./assets/reset-ee00c10b.js";const a=document.querySelector(".feedback-form");a.addEventListener("input",function(e){if(e.target.tagName==="INPUT"){const{email:t,message:s}=a.elements,n={email:t.value,message:s.value};localStorage.setItem("feedback-form-state",JSON.stringify(n))}});document.addEventListener("DOMContentLoaded",function(){const e=localStorage.getItem("feedback-form-state");if(e){const t=JSON.parse(e);a.elements.email.value=t.email||"",a.elements.message.value=t.message||""}});
+//# sourceMappingURL=commonHelpers2.js.map
