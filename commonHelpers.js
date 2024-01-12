@@ -2,5 +2,5 @@ import"./assets/reset-ee00c10b.js";import{S as t}from"./assets/vendor-c9def49e.j
       <a class="gallery-link" href="${o.original}">
         <img class="gallery-image" src="${o.preview}" alt="${o.description}" />
       </a>
-    </li>`).join("");i.innerHTML=a,new t(".gallery a",{animationSpeed:250})});
+    </li>`).join("");i.innerHTML=a,new t(".gallery a",{animationSpeed:250,captionsData:"alt",captionDelay:250})});
 //# sourceMappingURL=commonHelpers.js.map
