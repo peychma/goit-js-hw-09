@@ -76,5 +76,9 @@ document.addEventListener("DOMContentLoaded", function () {
     </li>`
     ).join("");
     gallery.innerHTML = galleryHTML;
-    var lightbox = new SimpleLightbox(".gallery a", { animationSpeed: 250, });
+    const lightbox = new SimpleLightbox(".gallery a", {
+        animationSpeed: 250,
+        captionsData: "alt",
+        captionDelay: 250
+    });
 });
